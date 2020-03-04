@@ -1,6 +1,9 @@
 package threeSum
 
-import "sort"
+import (
+	"fmt"
+	"sort"
+)
 
 func threeSum(nums []int) [][]int {
 	if len(nums) < 3{

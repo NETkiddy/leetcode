@@ -1,5 +1,6 @@
 package problems
 
+//基于动态规划实现
 func minCostClimbingStairs(cost []int) int {
 	l:=len(cost)
 	if l==0 {
